@@ -1,0 +1,147 @@
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
+
+/* html {
+  font-size: 62.5%;
+} */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%
+}
+.nav {
+  background-color: #0033A0;
+}
+
+.insurance-info {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.insurance-info h2 {
+  color: #00AEC7;
+}
+
+.insurance-info h1, p {
+  color:#0033A0;
+}
+form {
+  font-family: 'Barlow', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #0033A0;
+}
+
+.form-label {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  color: #0033A0;
+  font-size: 1.2rem;
+}
+
+.login-container {
+  font-family: 'Barlow', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: #0033A0;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 50%;
+}
+
+.form-control {
+  border-radius: 100px;
+}
+
+.info {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  background-color: #E3E829;
+  color: #0033A0;
+}
+
+button {
+  background:none
+}
+
+.login {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  background-color: #E3E829;
+  color: #0033A0;
+  border-radius: 40px;
+}
+
+.contact-form {
+  background-color: #ECF0F1;
+  display: flex;
+  padding: 3%;
+  flex-direction: column;
+}
+
+.line-container {
+  display: flex;
+  justify-content: center;
+}
+
+.request {
+  display: flex;
+  justify-content: center;
+  font-size: 1.37rem;
+  color: #0033A0;
+}
+
+.info-container {
+  display: flex;
+}
+
+.info-form {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-container a {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #0033A0;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.logo-footer {
+  width: 30%;
+  height: 100%;
+}
+
+.footer-links {
+  width: 70%;
+  height: 100%;
+}
+
+.second-footer {
+  display: flex;
+}
+.second-footer a {
+  text-decoration: none;
+  color:#8189A9;
+  font-style: normal;
+  font-weight: normal;
+}

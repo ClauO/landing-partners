@@ -4,12 +4,222 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
   <title>Sura</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+  <main>
+    <header>
+      <div class="logo-container">
+        <img src="./images/Logo.png" alt="sura logo">
+      </div>
+      <div class="login-container">
+        <div class="dropdown">
+          <label for="">SURA en : </label>
+          <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            País
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Chile</a>
+            <a class="dropdown-item" href="#">Argentina</a>
+            <a class="dropdown-item" href="#">Brasil</a>
+            <a class="dropdown-item" href="#">Colombia</a>
+            <a class="dropdown-item" href="#">El Salvador</a>
+            <a class="dropdown-item" href="#">México</a>
+            <a class="dropdown-item" href="#">Panamá</a>
+            <a class="dropdown-item" href="#">Perú</a>
+            <a class="dropdown-item" href="#">República Dominicana</a>
+            <a class="dropdown-item" href="#">Uruguay</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="btn dropdown-toggle" type="button" id="dropdownMenuButtonTwo" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Ecuéntranos
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Norte</a>
+            <a class="dropdown-item" href="#">Centro</a>
+            <a class="dropdown-item" href="#">Sur</a>
+          </div>
+        </div>
+        <div class="login">
+          <button class="btn dropdown-toggle login" type="button" id="dropdownMenuButtonThree" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Iniciar Sesión
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">SEGUROS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Movilidad</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Hogar</a>
+            </li>
+            <li class="nav-item dropdown">
+
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Vida y Salud
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <!-- Seguros -->
+      <section class="insurance-info">
+        <div>
+          <h2>Seguro</h2>
+          <h1>PT + RC</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nunc ultrices eget metus pretium, sit sit. <b> Ultricies lacus tellus </b> tincidunt nulla ipsum.</p>
+        </div>
+        <div>
+          <img src="./images/Group 536.png" alt="">
+        </div>
+        <div>
+          <img src="./images/sura-image-autopase.png" alt="">
+        </div>
+      </section>
+    <!-- Formulario contacto -->
+    <section class="contact-form">
+      <div class="line-container">
+        <img src="./images/Line Copy.png" alt="">
+      </div>
+      <div class="request">
+        <h2>Solicita una cotización ahora</h2>
+      </div>
+      <form class="info-form">
+        <div class="row">
+          <div class="col">
+            <label for="" class="form-label">RUT</label>
+            <input type="text" class="form-control" placeholder="12345678">
+          </div>
+          <div class="col">
+            <label for="" class="form-label">Correo</label>
+            <input type="email" class="form-control" placeholder="Last name">
+          </div>
+          <div class="col">
+            <label for="" class="form-label">Teléfono</label>
+            <input type="tel" class="form-control" placeholder="987654321">
+          </div>
+          <div class="col">
+            <label for=""></label>
+            <input type="submit" class="form-control info" value="Solicitar Información">
+          </div>
+        </div>
+      </form>
+    </section>
+
+    <section class="info-container" >
+      <!-- Coberturas -->
+      <div class="total-loss">
+        <div>
+          <img src="./images/Line Copy.png" alt="">
+          <h2>Coberturas</h2>
+        </div>
+        <div>
+          <img src="./images/sura-icon-perdida-total.png" alt="">
+          <h3>Pérdida total</h3>
+        </div>
+        <div>
+          <p>Cubre el valor comercial del vehículo por <b> UF 100.</b></p>
+          <p>Puedes personalizar a <b> UF 150, UF 200 Y UF 250</b></p>
+        </div>
+      </div>
+
+      <!-- Responsabilidad civil -->
+      <div class="rc">
+        <div class="rc-tittle">
+          <img src="./images/sura-icon-rc.png" alt="">
+          <h3>Responsabilidad civil</h3>
+        </div>
+        <div>
+          <p>Cubre los gastos de daños y materiales y médicos 
+            ocasionados a terceros hasta <b> UF 800.</b> Puedes 
+            personalizarlo a <b> UF 1.000, UF 2.000 O UF 3.000</b></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <div class="logo-footer">
+          <img src="./images/Logo.png" alt="Logo SURA">
+        </div>
+        <div class="row footer-links">
+          <div class="col">
+            <a href="">MOVILIDAD</a>
+          </div>
+          <div class="col">
+            <a href="">HOGAR</a>
+          </div>
+          <div class="col">
+            <a href="">SALUD Y VIDA</a>
+          </div>
+          <div class="col">
+            <a href="">EMPRESAS</a>
+          </div>
+          <div class="col">
+            <a href="">CONTÁCTANOS</a>
+          </div>
+          <div class="col">
+            <a href="">APPS SEGUROS SURA</a>
+          </div>
+        </div>
+      </div>
+      <div class="second-footer">
+        <div class="col">
+          <a href="">NUESTRA COMPAÑIA</a>
+          <a href="" class="row">Quienes somos</a>
+          <a href="" class="row">Encuéntranos</a>
+          <a href="" class="row">Ciudad Virtua</a>
+          <a href="" class="row">Arte y cultura</a>
+          <a href="" class="row">Trabaja con nosotros</a>
+        </div>
+        <div class="col">
+          <a href="">SEGUROS</a>
+          <a href="" class="row">CMF</a>
+          <a href="" class="row">Defensor del asegurado</a>
+          <a href="" class="row">Nómina de asegurados fallecidos</a>
+          <a href="" class="row">Declaración beneficiario UAF57</a>
+        </div>
+        <div class="col">
+          <a href="">ACCESOS</a>
+          <a href=""  class="row">Pagar cuotas</a>
+          <a href="" class="row">Denunciar un siniestro</a>
+          <a href=""  class="row">Solicitar asistencias</a>
+          <a href=""  class="row">Descargar póliza SOAP</a>
+          <a href=""  class="row">Descargar póliza RCI</a>
+          <a href=""  class="row">Seguros colectivos</a>
+          <a href=""  class="row">Preguntas frecuentes</a>
+        </div>
+        <div class="col">
+          <a href="">CONTACTO</a>
+          <a href=""  class="row">Fono Seguros SURA</a>
+          <a href=""  class="row">600 411 1000</a>
+          <a href=""  class="row">Asistente virtual</a>
+          <a href="">Whatsapp</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+  <script src="main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+
 </body>
-<script src="main.js"></script>
 </html>
